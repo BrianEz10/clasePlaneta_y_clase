@@ -5,8 +5,8 @@ public class Ejercicio1 {
     private String numeroDocumentoIdentidad;
     private int anioNacimiento;
     private String paisNacimiento; // Nuevo atributo
-    private char genero; // Nuevo atributo: 'H' o 'M'
-
+    private char genero;
+    
     // Constructores
     public Persona(String nombre, String apellidos, String numeroDocumentoIdentidad, int anioNacimiento, String paisNacimiento, char genero) {
         this.nombre = nombre;
